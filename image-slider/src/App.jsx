@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="relative isolate min-h-screen overflow-hidden text-ink">
       <Background />
-      <div className="mx-auto max-w-[1280px] px-6 sm:px-10">
+      <div className="mx-auto max-w-7xl px-6 sm:px-10">
         <header className="flex items-center justify-between border-b border-violet-100 py-8">
           <img className='w-22 h-22 rounded-full object-cover border-2 border-indigo-600' src="images/image-6.jpg" />
           <nav aria-label="Navegação principal" className="text-xs font-semibold tracking-widest text-slate-500">
