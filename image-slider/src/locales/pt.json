@@ -1,0 +1,67 @@
+{
+  "document": {
+    "title": "WILD / STORIES — Galeria Interativa de Animais"
+  },
+  "nav": {
+    "explore": "EXPLORAR",
+    "about": "SOBRE"
+  },
+  "language": {
+    "label": "Selecionar idioma"
+  },
+  "hero": {
+    "eyebrow": "EXPLORAÇÃO • VIDA SELVAGEM",
+    "title": "A natureza em cada detalhe.",
+    "subtitle": "Descubra espécies extraordinárias em uma experiência visual interativa."
+  },
+  "footer": {
+    "credits": "REACT • TAILWIND CSS • JAVASCRIPT"
+  },
+  "slider": {
+    "featured": "EM DESTAQUE / {{badge}}",
+    "gallery": "Galeria da vida selvagem",
+    "controls": "Controles do slider",
+    "selectSlide": "Selecionar slide",
+    "previous": "Imagem anterior",
+    "next": "Próxima imagem",
+    "goTo": "Ir para imagem {{index}}",
+    "position": "{{current}} / {{total}}"
+  },
+  "slides": {
+    "cachorros": {
+      "animal": "Cachorrinhos",
+      "badge": "CÃES",
+      "summary": "Pequenos companheiros, grandes personalidades.",
+      "description": "Raças pequenas são conhecidas por sua curiosidade, energia e apego aos tutores.",
+      "alt": "Filhotes de cachorro em um campo florido"
+    },
+    "urso": {
+      "animal": "Urso",
+      "badge": "URSOS",
+      "summary": "Força, cuidado e vida selvagem.",
+      "description": "Ursos vivem em diversos habitats e apresentam dietas e comportamentos variados.",
+      "alt": "Filhote de urso junto a um urso adulto"
+    },
+    "panda": {
+      "animal": "Panda-gigante",
+      "badge": "PANDA-GIGANTE",
+      "summary": "Calmo, curioso e inconfundível.",
+      "description": "O panda-gigante vive na China, alimenta-se principalmente de bambu e é um excelente escalador.",
+      "alt": "Pandas descansando em seu habitat"
+    },
+    "leao": {
+      "animal": "Leão",
+      "badge": "LEÕES",
+      "summary": "Um grande felino social.",
+      "description": "Leões vivem em grupos sociais e são predadores habilidosos.",
+      "alt": "Leoa descansando em um galho"
+    },
+    "girafa": {
+      "animal": "Girafa",
+      "badge": "GIRAFAS",
+      "summary": "A maior altura entre os animais terrestres.",
+      "description": "Seu pescoço comprido permite alcançar folhas no alto das árvores africanas.",
+      "alt": "Duas girafas na savana"
+    }
+  }
+}

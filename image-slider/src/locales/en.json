@@ -1,0 +1,67 @@
+{
+  "document": {
+    "title": "WILD / STORIES — Interactive Animal Gallery"
+  },
+  "nav": {
+    "explore": "EXPLORE",
+    "about": "ABOUT"
+  },
+  "language": {
+    "label": "Select language"
+  },
+  "hero": {
+    "eyebrow": "WILDLIFE • EXPLORATION",
+    "title": "Nature in every detail.",
+    "subtitle": "Discover extraordinary species in an interactive visual experience."
+  },
+  "footer": {
+    "credits": "REACT • TAILWIND CSS • JAVASCRIPT"
+  },
+  "slider": {
+    "featured": "FEATURED / {{badge}}",
+    "gallery": "Wildlife gallery",
+    "controls": "Slider controls",
+    "selectSlide": "Select slide",
+    "previous": "Previous image",
+    "next": "Next image",
+    "goTo": "Go to image {{index}}",
+    "position": "{{current}} / {{total}}"
+  },
+  "slides": {
+    "cachorros": {
+      "animal": "Puppies",
+      "badge": "DOGS",
+      "summary": "Small companions, big personalities.",
+      "description": "Small breeds are known for their curiosity, energy and attachment to their owners.",
+      "alt": "Puppy dogs in a flower field"
+    },
+    "urso": {
+      "animal": "Bear",
+      "badge": "BEARS",
+      "summary": "Strength, care and wildlife.",
+      "description": "Bears live in diverse habitats and show varied diets and behaviors.",
+      "alt": "A bear cub next to an adult bear"
+    },
+    "panda": {
+      "animal": "Giant panda",
+      "badge": "GIANT PANDA",
+      "summary": "Calm, curious and unmistakable.",
+      "description": "The giant panda lives in China, feeds mainly on bamboo and is an excellent climber.",
+      "alt": "Giant pandas resting in their habitat"
+    },
+    "leao": {
+      "animal": "Lion",
+      "badge": "LIONS",
+      "summary": "A great social big cat.",
+      "description": "Lions live in social groups and are skilled predators.",
+      "alt": "A lioness resting on a branch"
+    },
+    "girafa": {
+      "animal": "Giraffe",
+      "badge": "GIRAFFES",
+      "summary": "The tallest of all land animals.",
+      "description": "Its long neck lets it reach leaves high up in African trees.",
+      "alt": "Two giraffes on the savanna"
+    }
+  }
+}
