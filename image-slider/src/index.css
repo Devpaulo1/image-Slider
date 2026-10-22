@@ -1,12 +1,30 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-ink: #1f1836;
   --color-mauve: #6039ad;
   --color-lavender: #faf8ff;
+  --color-night: #0b0716;
+}
+
+:root {
+  color-scheme: light;
+  --grid-line: #ebe5f6;
+}
+
+:root.dark {
+  color-scheme: dark;
+  --grid-line: #241a44;
 }
 
 body {
   margin: 0;
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  background-color: var(--color-lavender);
+}
+
+html.dark body {
+  background-color: var(--color-night);
 }

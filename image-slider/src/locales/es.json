@@ -27,6 +27,9 @@
     "goTo": "Ir a la imagen {{index}}",
     "position": "{{current}} / {{total}}"
   },
+  "theme": {
+    "label": "Cambiar tema"
+  },
   "slides": {
     "cachorros": {
       "animal": "Cachorros",

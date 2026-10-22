@@ -8,7 +8,7 @@ export default function SliderControls({ index, count, onPrevious, onNext, onSel
   return (
     <div className="mt-8 flex flex-wrap items-center gap-3" role="group" aria-label={t('slider.controls')}>
       <button type="button" onClick={onPrevious} aria-label={t('slider.previous')}
-        className="grid size-13 cursor-pointer place-items-center rounded-2xl border border-violet-100 bg-white text-mauve shadow-sm transition hover:-translate-y-0.5 hover:bg-violet-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-mauve">
+        className="grid size-13 cursor-pointer place-items-center rounded-2xl border border-violet-100 bg-white text-mauve shadow-sm transition hover:-translate-y-0.5 hover:bg-violet-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-mauve dark:border-white/10 dark:bg-white/5 dark:text-violet-400 dark:hover:bg-white/10">
         <ArrowLeft size={20} />
       </button>
       <button type="button" onClick={onNext} aria-label={t('slider.next')}
@@ -20,7 +20,7 @@ export default function SliderControls({ index, count, onPrevious, onNext, onSel
           <button key={i} type="button" onClick={() => onSelect(i)}
             aria-label={t('slider.goTo', { index: i + 1 })}
             aria-current={i === index ? 'true' : undefined}
-            className={`h-2.5 cursor-pointer rounded-full transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-mauve ${i === index ? 'w-7 bg-mauve' : 'w-2.5 bg-violet-200 hover:bg-violet-400'}`}
+            className={`h-2.5 cursor-pointer rounded-full transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-mauve ${i === index ? 'w-7 bg-mauve' : 'w-2.5 bg-violet-200 hover:bg-violet-400 dark:bg-white/20 dark:hover:bg-violet-400'}`}
           />
         ))}
       </div>

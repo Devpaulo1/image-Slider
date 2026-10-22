@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#faf8ff" />
+    <script>
+      try {
+        var saved = localStorage.getItem('wild-stories-theme');
+        var dark = saved ? saved === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+        if (dark) document.documentElement.classList.add('dark');
+      } catch (e) {}
+    </script>
     <title>WILD / STORIES — Galeria Interativa de Animais</title>
   </head>
   <body>
